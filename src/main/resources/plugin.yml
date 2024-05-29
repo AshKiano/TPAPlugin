@@ -1,0 +1,15 @@
+name: TPAPlugin
+version: '${project.version}'
+main: com.ashkiano.tpaplugin.TPAPlugin
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  tpa:
+    description: Sends a teleport request to another player.
+    usage: "/tpa <player>"
+  tpaccept:
+    description: Accepts a teleport request.
+    usage: "/tpaccept"
+  tpdeny:
+    description: Denies a teleport request.
+    usage: "/tpdeny"

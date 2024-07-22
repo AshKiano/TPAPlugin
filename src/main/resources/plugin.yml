@@ -3,6 +3,8 @@ version: '${project.version}'
 main: com.ashkiano.tpaplugin.TPAPlugin
 api-version: 1.16
 authors: [ AshKiano ]
+#it is really dependent on AshLib, but cannot be there because i want a custom missing library message
+#depend: [AshLib]
 commands:
   tpa:
     description: Sends a teleport request to another player.
